@@ -1,0 +1,40 @@
+* {
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #3b446f;
+}
+
+.main-container {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+}
+
+.main-container > h1 {
+    font-size: 48px;
+    color: white;
+
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 365px;
+    width: 365px;
+    flex-wrap: wrap;
+}
+
+.gridbox {
+    border: 1px solid white;
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    background-size: 100%;
+    background-image: url();
+}
