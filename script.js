@@ -2,6 +2,12 @@ let tick = new Image();
 let cross = new Image();
 let gridBoxes = document.querySelectorAll(".gridbox");
 let emptyBoxes = document.querySelectorAll(".empty");
+
+let refreshButton = document.querySelector(".refresh")
+refreshButton.addEventListener('click', () =>{
+    location.reload();
+});
+
 tick.src = "./resources/tick.png";
 cross.src = "./resources/cross.png";
 

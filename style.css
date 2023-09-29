@@ -6,6 +6,21 @@ body {
     background-color: #3b446f;
 }
 
+button {
+    width: 125px;
+    height: 45px;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    background-color: #0b112d;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -16,7 +31,7 @@ body {
 
 .main-container > h1 {
     font-size: 48px;
-    color: white;
+    color: #0b112d;
 
 }
 
@@ -24,16 +39,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 365px;
-    width: 365px;
+    height: 370px;
+    width: 370px;
     flex-wrap: wrap;
 }
 
 .gridbox {
-    border: 1px solid white;
+    border: 2px solid #0b112d;
     height: 120px;
     width: 120px;
     background-position: center;
     background-size: 100%;
     background-image: url();
+    cursor: pointer;    
 }
